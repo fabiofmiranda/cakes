@@ -1,0 +1,132 @@
+body{
+  font-family: 'Open Sans';
+  padding: 0;
+  margin: 0;
+}
+header{
+  
+  padding-top: 10px;
+  padding-bottom: 25px;
+  padding-left: 0;
+  padding-right: 0;
+  background: #f3f3f3;
+  border-bottom: 20px solid #95111e;
+}
+nav{
+  width: 960px;
+  margin: 0 auto;
+}
+nav ul{
+  list-style: none;
+  text-align: right;
+  margin-top: -40px;
+  text-transform: uppercase;
+}
+nav ul li{
+  display: inline;
+  padding: 2px 20px;
+}
+nav a{
+  color: #530f2e;
+  font-family: Trebuchet MS;
+  text-decoration: none;
+}
+nav a:hover{
+  color:#254a78;
+}
+iframe{
+  transition: height 1s;
+}
+iframe:hover{
+  height: 600px;
+}
+.container{
+  width: 960px;
+  margin: 0 auto;
+  height: 300px;
+}
+#caixalink{
+  margin-left: 400px;
+}
+.imglink{
+  width: 50px;
+}
+
+.album{
+  width: 300px;
+
+}
+legend{
+  font-size: 25px;
+  padding: 10px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #530d2e;
+}
+.linha input{
+  height: 40px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  width: 39.6%;
+  font-family: Trebuchet MS;
+}
+textarea{
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  height: 100px;
+  margin-top: 5px;
+  width: 600px;
+  font-family: Trebuchet MS;
+}
+
+main{
+  margin: 0;
+  padding: auto;
+}
+
+.capa{
+  
+  height: 300px;
+
+}
+
+button{
+  border-radius: 10px;
+  padding: 25px 300px;
+  background: #3af29d;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  text-transform: lowercase;
+  float: right;
+  width: 250px;
+  margin-bottom: 50px;
+  font-family: Trebuchet MS;
+}
+@keyframes botao{
+  0% {background-color:blue; }
+  20%{background-color:black; }
+  40%{background-color:yellow; }
+  60%{background-color:red; }
+  80%{background-color:green; }
+  100%{background-color:orange; }
+}
+@-webkit-keyframe botao{
+  0%{background-color:blue; }
+  20%{background-color:black; }
+  40%{background-color:yellow; }
+  60%{background-color:red; }
+  80%{background-color:green; }
+  100%{background-color:orange; }
+
+}
+button:hover{
+  animation-name: botao;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: botao;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+}

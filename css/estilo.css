@@ -1,0 +1,121 @@
+body{
+  font-family: 'Open Sans';
+  padding:0;
+  margin:0;
+}
+header{
+  padding-top:10px;
+  padding-bottom:20px;
+  padding-left:0;
+  padding-right:0;
+  background:#0b1e34;
+  border-bottom:20px solid #c9ba0d;
+}
+
+nav{
+  width:960px;
+  margin:0 auto;
+}
+
+nav ul{
+  list-style:none;
+  text-align:right;
+  margin-top: -55px;
+  text-transform:uppercase;
+}
+
+nav ul li{
+  display:inline;
+  padding:2px 20px;
+}
+
+nav a {
+  color:#fff;
+  font-family:Trebuchet MS;
+  text-decoration:none;
+}
+nav a:hover{
+  color: #c9ba0d;
+}
+
+
+iframe{
+  transition: height 1s;
+}
+iframe:hover{
+  height: 600px;
+}
+.container{
+  width: 960px;
+  margin: 0 auto;
+  height: 500px;
+}
+#caixalink{
+  margin-left: 400px;
+}
+.imglink{
+  width: 50px;
+}
+legend{
+  font-size: 32px;
+  padding: 15px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #530d2e;
+  }
+  .linha input{
+    height: 40px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 29.6%;
+    font-family: Trebuchet MS;
+  }
+  textarea{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    height: 200px;
+    margin-top: 5px;
+    width: 930px;
+    font-family: Trebuchet MS;
+  }
+  button{
+    border-radius: 10px;
+    padding: 30px 25px;
+    background: #3af29d;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    text-transform: lowercase;
+    float: right;
+    width: 250px;
+    margin-bottom: 50px;
+    font-family: Trebuchet MS;
+  }
+
+@keyframes botao {
+  0% {background-color: blue;}
+  20% {background-color: black;}
+  40% {background-color: yellow;}
+  60% {background-color: red;}
+  80% {background-color: green;}
+  100% {background-color: orange;}
+}
+@-webkit-keyframe botao{
+  0% {background-color: blue;}
+  20% {background-color: black;}
+  40% {background-color: yellow;}
+  60% {background-color: red;}
+  80% {background-color: green;}
+  100% {background-color: orange;}
+}
+  button:hover{
+    animation-name:botao;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: botao;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+  }
