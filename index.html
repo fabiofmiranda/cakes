@@ -14,10 +14,10 @@
     
   </head>
   <body>
-    <nav>
+    <menu id="itens">
      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="navbar-collapse d-flex justify-content-end">
-        <span class="material-icons">menu</span>
+        <span id="burger" class="material-icons" onclick="clickMenu()">menu</span>
         <ul class="nav navbar-nav">
     
           <li class="nav-item">
@@ -38,7 +38,7 @@
         </ul>
       </div> 
      </nav>
-    </nav>
+    </menu>
     <header class="masthead d-flex"  id="inicio">
       <div class="container text-right my-auto text-white">
         <h1 class="mb-1">Cakes</h1>
@@ -186,5 +186,16 @@
 <p class="text-muted small mb-0">Copyright &copy; cakes 2022</p>
 </div>
 </footer>
+    <script>
+      function clicMenu(){
+          if(itens.style.display == 'block'){
+             itens.style.display = 'none'
+            
+          } else{
+            itens.style.display = 'block'
+          }
+        
+      } 
+    </script>
 </body>
 </html>
